@@ -22,7 +22,7 @@
         <v-btn color="primary" @click="getHtmlOutput" class="mr-5">Get HTML Output</v-btn>
         <v-btn color="primary" @click="toggleTheme" class="mr-5">{{ $vuetify.theme.current.dark ? 'dark theme' : 'light theme' }}</v-btn>
         <v-row>
-          <v-col cols="3">
+          <v-col cols="6">
             <v-select
               color="primary"
               density="compact"
