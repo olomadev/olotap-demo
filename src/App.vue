@@ -20,7 +20,7 @@
       <div class="d-flex gap-4">
         <v-btn color="primary" @click="getJsonOutput" class="mr-5">Get JSON Output</v-btn>
         <v-btn color="primary" @click="getHtmlOutput" class="mr-5">Get HTML Output</v-btn>
-        <v-btn color="primary" @click="toggleTheme" class="mr-5">{{ $vuetify.theme.current.dark ? 'dark theme' : 'light theme' }}</v-btn>
+        <v-btn color="primary" @click="toggleTheme" class="mr-5">{{ $vuetify.theme.current.dark ? 'light theme' : 'dark theme' }}</v-btn>
         <v-row>
           <v-col cols="6">
             <v-select
