@@ -13,7 +13,11 @@ npm i
 
 ```sh
 npm run dev
+```
 
+Visit one of the URLs shown below.
+
+```sh
 -----------------------------------------
   VITE v6.2.0  ready in 496 ms
 
