@@ -10,7 +10,6 @@
       output="json"
       :error-messages="errorMessages"
       :min-height="600"
-      max-height="600"
       max-width="900"
       @change="onChange"
     >
@@ -72,6 +71,7 @@ import i18n from "@/i18n";
 import "olotap/classic-editor.css";
 import { OlotapEditor, defaultBubbleList, Context } from "olotap";
 import defaultContentJson from '@/content.json';
+import Emoji from '@/extensions/emoji';
 
 export default {
   name: 'App',
@@ -204,6 +204,7 @@ export default {
         Blockquote,
         HorizontalRule,
         CodeBlock,
+        Emoji
         // Fullscreen,
       ];
     },
