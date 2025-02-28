@@ -3,6 +3,33 @@
 
 Olotap Tiptap HTML editor demo project.
 
+# Project Files
+
+```sh
+├── olotap-demo
+├── node-modules
+├── public
+├── src
+│   ├── components
+│   │   ├── EmojiActionButton.vue
+│   ├── extensions
+│   │   ├── emoji.js
+│   ├── i18n
+│   │   ├── locales
+│   │   │   ├── en.js
+│   │   │   ├── tr.js
+│   ├── index.js
+│   ├── plugins
+│   │   ├── index.js
+│   │   ├── vuetify.js
+│   ├── App.vue
+│   ├── content.json
+│   ├── main.js
+│   │   │
+│   ├── package.json
+│   ├── vite.config.js
+```
+
 # Installation
 
 ```sh
