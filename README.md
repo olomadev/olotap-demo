@@ -6,7 +6,6 @@ Olotap Tiptap HTML editor demo project.
 # Project Files
 
 ```sh
-├── olotap-demo
 ├── node-modules
 ├── public
 ├── src
